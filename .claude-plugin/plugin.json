@@ -1,0 +1,12 @@
+{
+  "name": "carryall-policy-enforcement",
+  "version": "0.3.1",
+  "description": "Deterministic IAM control plane for AI agents. Translates natural language intent into minimal-scope Ed25519-signed envelopes. You bring your own data plane — Carryall governs access with least-privilege enforcement and a tamper-evident audit trail.",
+  "author": {
+    "name": "Carryall"
+  },
+  "homepage": "https://github.com/tronmongoose/agent.carryall_plugin",
+  "repository": "https://github.com/tronmongoose/agent.carryall_plugin",
+  "license": "MIT",
+  "keywords": ["security", "compliance", "iam", "audit", "policy", "mcp", "vault", "access-control"]
+}

@@ -1,0 +1,25 @@
+{
+  "name": "carryall",
+  "owner": {
+    "name": "Carryall"
+  },
+  "metadata": {
+    "description": "Deterministic IAM control plane for AI agents. BYO data plane — Carryall governs access."
+  },
+  "plugins": [
+    {
+      "name": "carryall-policy-enforcement",
+      "source": {
+        "source": "github",
+        "repo": "tronmongoose/agent.carryall_plugin"
+      },
+      "description": "Deterministic IAM control plane for AI agents. Ed25519-signed envelopes, least-privilege policy compilation, tamper-evident audit trail. BYO data plane.",
+      "version": "0.3.1",
+      "author": {
+        "name": "Carryall"
+      },
+      "license": "MIT",
+      "keywords": ["security", "compliance", "iam", "audit", "policy", "mcp"]
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "mcpServers": {
+    "carryall": {
+      "command": "python3",
+      "args": ["-m", "authority_runtime.cli", "mcp", "serve"],
+      "env": {
+        "CARRYALL_SLOS_CONFIG": "${HOME}/slos/config/carryall/integration.json",
+        "CARRYALL_KEYS_DIR": "${HOME}/slos/config/carryall/keys",
+        "OPENAI_API_KEY": "${OPENAI_API_KEY}"
+      }
+    }
+  }
+}
